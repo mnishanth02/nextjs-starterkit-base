@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   ogImage: "https://starter.app/og.jpg",
   links: {
     twitter: "https://twitter.com/mnishanth02",
-    github: "https://github.com/mnishanth02/nextjs-starter-raw",
+    github: "https://github.com/mnishanth02/nextjs-starterkit-base",
     instagram: "https://www.instagram.com/mnishanth02/",
   },
 };

@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-starter-raw",
+  "name": "nextjs-starterkit-base",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -88,7 +88,7 @@
   "keywords": ["nextjs", "typescript", "tailwindcss", "biome"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mnishanth02/nextjs-starter-raw.git"
+    "url": "https://github.com/mnishanth02/nextjs-starterkit-base.git"
   },
-  "homepage": "https://github.com/mnishanth02/nextjs-starter-raw"
+  "homepage": "https://github.com/mnishanth02/nextjs-starterkit-base"
 }
