@@ -85,12 +85,12 @@ export default function RootLayout({ children, modal }: RootLayoutProps) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${inter.className}`}
+      className={`${inter.className} scroll-smooth`}
       suppressContentEditableWarning
     >
-      <body className="min-h-screen bg-background font-sans antialiased">
+      <body className="flex min-h-screen flex-col antialiased">
         <AppProvider>
-          {children}
+          <main className="grow">{children}</main>
           {modal}
         </AppProvider>
       </body>

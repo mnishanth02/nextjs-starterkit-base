@@ -23,8 +23,8 @@ export default function NotFound(): ReactNode {
   }, [countdown, router]);
 
   return (
-    <div className="dark relative flex h-full w-full flex-1 flex-col items-center justify-center space-y-6 bg-background">
-      <h1 className="px-6 text-center font-bold font-sans text-4xl text-white tracking-tight drop-shadow-sm sm:text-5xl lg:font-heading lg:text-6xl lg:tracking-normal xl:text-7xl">
+    <div className="min-h-screen flex h-full w-full flex-1 flex-col bg-background items-center justify-center">
+      <h1 className="px-6 text-center font-bold font-sans text-4xl tracking-tight drop-shadow-sm sm:text-5xl lg:font-heading lg:text-6xl lg:tracking-normal xl:text-7xl">
         Page not found
       </h1>
 
